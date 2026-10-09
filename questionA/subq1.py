@@ -1,4 +1,4 @@
-# Question 1: Array from a list + attributes
+# Question 1: Create an array from [3, 6, 9, 12, 15]. Print its shape, ndim, size and dtype.
 
 # Aim
 # To make a numpy array and print its shape, ndim, size and dtype.
