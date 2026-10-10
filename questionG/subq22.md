@@ -15,15 +15,15 @@ for s1, s2 in tests:
     try:
         r = np.ones(s1) + np.ones(s2)
         print(s1, '+', s2, '->', r.shape)
-    except ValueError:
-        print(s1, '+', s2, '-> error')
+    except ValueError as e:
+        print(s1, '+', s2, '->', e)
 ```
 
 ## Output
 
 ```
 (4, 3) + (3,) -> (4, 3)
-(4, 3) + (4,) -> error
+(4, 3) + (4,) -> operands could not be broadcast together with shapes (4,3) (4,) 
 (4, 3) + (4, 1) -> (4, 3)
 (2, 3, 4) + (3, 1) -> (2, 3, 4)
 ```
