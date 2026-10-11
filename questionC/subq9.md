@@ -1,15 +1,17 @@
-#Question 9: Find the indices of values greater than 15 using np.nonzero, then again using np.where. Expected: [1 3 4 5 7].
+# Question 9: Find the indices of values greater than 15 using np.nonzero, then again using np.where. Expected: [1 3 4 5 7].
 
-#Aim
-#to find indices of values > 15 using np.nonzero and np.where.
+## Aim
+to find indices of values > 15 using np.nonzero and np.where.
 
-#Code:
+## Code:
 
+```python
 import numpy as np
 
 arr = np.array([4, 15, 8, 23, 42, 16, 7, 30])
 print(np.nonzero(arr >= 15))
 print(np.where(arr >= 15))
+
 
 '''
 
