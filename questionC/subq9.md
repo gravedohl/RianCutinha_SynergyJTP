@@ -11,17 +11,15 @@ import numpy as np
 arr = np.array([4, 15, 8, 23, 42, 16, 7, 30])
 print(np.nonzero(arr >= 15))
 print(np.where(arr >= 15))
+```
 
 
-'''
-
-Output
+##Output
 
 [1 3 4 5 7]
 [1 3 4 5 7]
 
-Explanation
+##Explanation
 Both give the positions where the condition is true
 values >= 15 are 15, 23, 42, 16, 30 which sit at indices 1, 3, 4, 5, 7
 
-'''
