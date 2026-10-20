@@ -46,3 +46,7 @@ def clean_data(df):
         df[col] = df[col].fillna(df[col].median())
 
     return df
+
+#df = pd.read_csv("students.csv")
+#df = clean_data(df)
+#df.to_csv("cleaned_students.csv", index=False)
