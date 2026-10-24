@@ -1,0 +1,11 @@
+student_id,name,domain,attendance_percent,score,study_hours,height,weight,submitted
+S001,Aarav,Machine Learning,92.0,8.0,5,170.0,65.0,Submitted
+S002,Meera,Web Development,88.0,6.0,3,162.0,55.0,Submitted
+S003,Kabir,Machine Learning,88.0,0.0,0,168.0,58.0,Not Submitted
+S004,Isha,Electronics,95.0,9.0,4,158.0,50.0,Submitted
+S005,Rohan,Web Development,72.0,4.0,2,172.0,70.0,Submitted
+S006,Tara,Machine Learning,90.0,7.0,6,165.0,58.0,Submitted
+S007,Dev,Mechanical,88.0,0.0,1,180.0,80.0,Not Submitted
+S008,Naina,Machine Learning,88.0,10.0,8,160.0,52.0,Submitted
+S009,Omkar,Electronics,85.0,7.0,2,175.0,77.0,
+S010,Diya,Web Development,80.0,7.0,4,155.0,49.0,Submitted
