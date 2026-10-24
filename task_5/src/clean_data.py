@@ -152,5 +152,4 @@ raw = pd.read_csv("data/messy_students.csv", dtype=str)
 cleaned = clean_data(raw)
 results = validate_data(cleaned)
 cleaningreport(raw, cleaned, results, "output")
-print("Cleaning report saved!")
 '''
